@@ -1,0 +1,80 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="MER Conceitual" id="0">
+    <mxGraphModel dx="1571" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1000" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEF2FF;strokeColor=#4F46E5;fontColor=#111827;fontStyle=1;fontSize=13;arcSize=14;" value="USUARIO" vertex="1">
+          <mxGeometry height="62" width="180" x="60" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEF2FF;strokeColor=#4F46E5;fontColor=#111827;fontStyle=1;fontSize=13;arcSize=14;" value="CLIENTE" vertex="1">
+          <mxGeometry height="62" width="180" x="340" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEF2FF;strokeColor=#4F46E5;fontColor=#111827;fontStyle=1;fontSize=13;arcSize=14;" value="ADMINISTRADOR" vertex="1">
+          <mxGeometry height="62" width="180" x="340" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F3FF;strokeColor=#7C3AED;fontColor=#111827;fontStyle=1;fontSize=13;arcSize=14;" value="FILME" vertex="1">
+          <mxGeometry height="62" width="180" x="640" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F3FF;strokeColor=#7C3AED;fontColor=#111827;fontStyle=1;fontSize=13;arcSize=14;" value="GENERO" vertex="1">
+          <mxGeometry height="62" width="180" x="940" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F3FF;strokeColor=#7C3AED;fontColor=#111827;fontStyle=1;fontSize=13;arcSize=14;" value="ATOR" vertex="1">
+          <mxGeometry height="62" width="180" x="730" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF7ED;strokeColor=#EA580C;fontColor=#111827;fontStyle=1;fontSize=13;arcSize=14;" value="SESSAO" vertex="1">
+          <mxGeometry height="62" width="180" x="1360" y="820" as="geometry" />
+        </mxCell>
+        <mxCell id="9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF7ED;strokeColor=#EA580C;fontColor=#111827;fontStyle=1;fontSize=13;arcSize=14;" value="RESERVA" vertex="1">
+          <mxGeometry height="62" width="180" x="1230" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ECFDF5;strokeColor=#059669;fontColor=#111827;fontStyle=1;fontSize=13;arcSize=14;" value="SALA" vertex="1">
+          <mxGeometry height="62" width="180" x="340" y="800" as="geometry" />
+        </mxCell>
+        <mxCell id="11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F0FDF4;strokeColor=#16A34A;fontColor=#111827;fontStyle=1;fontSize=13;arcSize=14;" value="ASSENTO" vertex="1">
+          <mxGeometry height="62" width="180" x="640" y="738" as="geometry" />
+        </mxCell>
+        <mxCell id="12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FDF2F8;strokeColor=#DB2777;fontColor=#111827;fontStyle=1;fontSize=13;arcSize=14;" value="HISTORICO_SITUACAO_FILME" vertex="1">
+          <mxGeometry height="62" width="210" x="1050" y="840" as="geometry" />
+        </mxCell>
+        <mxCell id="200" edge="1" parent="1" source="2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;fontSize=11;fontStyle=1;" target="3" value="1:1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="201" edge="1" parent="1" source="2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;fontSize=11;fontStyle=1;" target="4" value="1:1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="202" edge="1" parent="1" source="5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;fontSize=11;fontStyle=1;" target="6" value="N:N">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="203" edge="1" parent="1" source="5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;fontSize=11;fontStyle=1;" target="7" value="N:N">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="204" edge="1" parent="1" source="5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;fontSize=11;fontStyle=1;" target="8" value="1:N">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="205" edge="1" parent="1" source="8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;fontSize=11;fontStyle=1;" target="9" value="1:N">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="206" edge="1" parent="1" source="10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;fontSize=11;fontStyle=1;" target="11" value="1:N">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="207" edge="1" parent="1" source="5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;fontSize=11;fontStyle=1;" target="12" value="1:N">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="208" edge="1" parent="1" source="10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;fontSize=11;fontStyle=1;" target="8" value="1:N">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="209" edge="1" parent="1" source="3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;fontSize=11;fontStyle=1;" target="9" value="1:N">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1320" y="230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="210" edge="1" parent="1" source="5" style="edgeStyle=none;rounded=1;html=1;endArrow=block;fontSize=11;fontStyle=1;exitX=0.15;exitY=0;entryX=0.35;entryY=0;" target="5" value="0:N continuação">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
